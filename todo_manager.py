@@ -23,5 +23,5 @@ print('Updated List')
 for number,task in enumerate(list_of_tasks, start=1):
   print(f'{number} {list_of_tasks}')
 
-# 6. Show the total number of tasks remaining
+# 6. Show the total number of tasks remaining.
 print(f'Number of current tasks {len(list_of_tasks)}')
