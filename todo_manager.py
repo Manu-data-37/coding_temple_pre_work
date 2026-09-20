@@ -14,9 +14,21 @@ user_input = input("Enter a new task: ")
 list_of_tasks.append(user_input)
 
 # 4. Let the user remove a task by number (pop)
-remove_number = int(input("Enter the number of the task you want to remove"))
-remove_task = list_of_tasks.pop(remove_number-1)
-print(f'You removed: ', {remove_task})
+# Add error handling: We are given ValueError
+# The plan of attack is...
+'''
+try:
+  CODE. 
+except ErrorMessage:
+  print('This message is triggred if the error occurs')
+
+'''
+try:
+    remove_number = int(input("Enter the number of the task you want to remove"))
+    remove_task = list_of_tasks.pop(remove_number-1)
+    print(f'You removed: ', {remove_task})
+except ValueError:
+  print('You need to type the number of the task you want to remove. Do not type text.')
 
 # 5. Display the updated list after each operation
 print('Updated List')
