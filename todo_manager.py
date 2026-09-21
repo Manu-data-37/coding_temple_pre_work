@@ -4,6 +4,11 @@
 # TODO: Let the user remove a task by number (pop)
 # TODO: Display the updated list after each operation
 # TODO:Show the total number of tasks remaining
+# Display
+print("=="*8)
+print("My To-Do List")
+print("=="*8 + "\n")
+
 
 
 # DONE: Start with a pre-populated list of 3 tasks
