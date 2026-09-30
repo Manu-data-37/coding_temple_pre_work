@@ -80,6 +80,9 @@ while True:
   scores.append(new_input)
   updated_avg = round(sum(scores) / len(scores ),1)
   print('Your Updated Average is: ', updated_avg)
+  print('\n')
+  print('Final average: ', updated_avg)
+
 
 
  
